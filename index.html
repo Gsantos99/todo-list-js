@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo List: POO</title>
+    <link rel="stylesheet" href="./assets/style/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    
+    <script type="module" src="main.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>
+        ToDo List <span class="material-symbols-outlined"> check_circle </span>
+      </h1>
+
+      <form>
+        <input
+          id="input-tarefa"
+          type="text"
+          placeholder="Informa a Atividade"
+          
+        />
+        <input id="input-date" type="date"  />
+        <select id="select-options" >
+          <option>Altissima</option>
+          <option>Alta</option>
+          <option>Normal</option>
+          <option>Baixa</option>
+        </select>
+        <button id="btn-form" type="submit">Adicionar</button>
+        
+      </form>
+    </header>
+
+    <div class="container">
+      <h3>Minhas tarefas</h3>
+      <ul class="lista-de-tarefas">
+        <!-- <li class="tarefa">
+                <div >
+                    <input type="checkbox" id="checkbox1"/>
+                    <label for="checkbox1">Assistir The Last of Us</label>
+                </div>
+                <p>Altíssima</p>
+                <p>01/02/2023</p>
+                <button class="btnTarefa">Editar</button>
+                <button class="btnTarefa">Excluir</button>
+            </li> -->
+
+
+        
+      </ul>
+    </div>
+  </body>
+</html>
